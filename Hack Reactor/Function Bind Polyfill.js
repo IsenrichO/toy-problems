@@ -44,12 +44,12 @@
 
 
  // METHOD 1: Named `bind` Function
- function bind(func, ctx) {
+ var bind = function(func, ctx) {
    let curriedArgs = Array.from(arguments).slice(2);
    return function(...args) {
      return func.apply(ctx, Array.prototype.concat(curriedArgs, args));
    }
- }
+ };
 
  
 // Method 2: Prototypal `bind` Implementation
@@ -58,4 +58,6 @@ Function.prototype.bind = Function.prototype.bind || function(ctx) {
     this.apply(ctx, args);
   }
 };
+
+module.exports = bind;
 
