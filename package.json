@@ -1,0 +1,36 @@
+{
+  "name": "toy-problems",
+  "version": "1.0.0",
+  "description": "A collection of toy problems sourced from various origins and with my original algorithmic solutions accompaniment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsenrichO/toy-problems.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IsenrichO/toy-problems/issues"
+  },
+  "homepage": "https://github.com/IsenrichO/toy-problems#readme",
+  "keywords": [
+    "Toy",
+    "Problems",
+    "Code",
+    "Challenges",
+    "Algorithms",
+    "Data",
+    "Structures",
+    "Oliver",
+    "Isenrich"
+  ],
+  "author": {
+    "name": "Oliver Isenrich",
+    "email": "isenrich@yahoo.com",
+    "url": "http://isenrich.io"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+}
